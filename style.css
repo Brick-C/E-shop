@@ -28,6 +28,14 @@ h4{
    
 }
 
+h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    
+
+}
+
 p{
     font-size: 20px;
     font-weight: 400;
@@ -123,4 +131,37 @@ p{
   
 }
 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .fe-box{
+        width: 180px;
+        text-align: center;
+        padding: 26px 16px;
+        box-shadow: 10px 10px 34px rgba(109, 109, 109, 0.07);
+        border: 1px solid #e6e6e6;
+        margin: 15px 0;
+
+        h6{
+            display: inline-block;
+            line-height: 1;
+            padding: 8px 9px;
+            color: #3b595a;
+            background-color: #f8d8fc;
+        }
+
+        img{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+    }
+
+    .fe-box:hover{
+        box-shadow: 20px 20px 54px rgba(10, 10, 0, 0.09);
+        transition: 0.3s ease;
+    }
+}
 
