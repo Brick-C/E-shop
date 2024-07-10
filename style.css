@@ -149,7 +149,7 @@ p{
             line-height: 1;
             padding: 8px 9px;
             color: #3b595a;
-            background-color: #f8d8fc;
+            background-color: #ff9ed8;
         }
 
         img{
@@ -163,5 +163,101 @@ p{
         box-shadow: 20px 20px 54px rgba(10, 10, 0, 0.09);
         transition: 0.3s ease;
     }
+
+    .fe-box:nth-child(2) h6 {
+        background-color: #75cead;
+    }
+
+    .fe-box:nth-child(3) h6 {
+        background-color: #bcdb7e;
+    }
+
+    .fe-box:nth-child(4) h6 {
+        background-color: #d9d17f;
+    }
+
+    .fe-box:nth-child(5) h6 {
+        background-color: #dbb578;
+    }
+
+    .fe-box:nth-child(6) h6 {
+        background-color: #c2b1f7;
+    }
+
 }
 
+#product1{
+    padding: 35px 80px;
+    text-align: center;
+    
+    .pro-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .pro{
+        width: 23%;
+        min-width: 250px;
+        padding: 12px 12px;
+        border: 1px solid #d1d1d1;
+        border-radius: 21px;
+        box-shadow: 10px 10px 34px rgba(109, 109, 109, 0.07);
+        margin: 32px 0;
+        position: relative;
+        img{
+            width: 100%;
+            border-radius: 16px;
+        }
+
+        .des{
+            text-align: start;
+            padding: 10px 0;
+
+            span{
+                color: #8f8f8f;
+                font-size: 18px;
+                font-weight: 600;
+            
+            }
+
+            h5{
+                font-size: 20px;
+                color: #535353;
+                padding-top: 8px;
+            }
+
+            i{
+                margin-top: 5px;
+                font-size: 15px;
+                color: rgb(243, 181, 25);
+                
+            }
+
+            h4{
+                padding-top: 10px;
+                font-size: 22px;
+                color: #5d937f;
+            }
+        }
+
+        .cart{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50px;
+            background-color: #e0f6f3;
+            color: #3baa9b;
+            border: 1px solid #e0f6f3;
+            position: absolute;
+            bottom: 18px;
+            right: 16px;
+        }
+    }
+
+    .pro:hover{
+        box-shadow: 20px 20px 54px rgba(10, 10, 0, 0.09);
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+}
