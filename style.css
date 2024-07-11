@@ -396,3 +396,117 @@ p{
         }
     }
 }
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+
+    .banner-box{
+        margin: 36px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(./img/banner/b7.jpg);
+        min-width: 30%;
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+
+    .b2{
+        background-image: url(./img/banner/b4.jpg);
+        
+        h2{
+            font-size: 26px;
+        }
+        h4{
+            color: #e2ffb4;
+        }
+    }
+       
+    .b3{
+        background-image: url(./img/banner/b18.jpg);
+        h4{
+            color: #1900ff;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
+        h2{
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 9px;
+        }
+
+        h4{
+            color: #ffdfdf;
+            font-size:22px;
+        }
+}
+
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #04084c;
+    padding: 42px 80px;
+    margin: 22px 0;
+
+    h4{
+        color: #ffbbbb;
+        font-size: 30px;
+    }
+
+    p{
+        color: #ffffff;
+        font-size: 20px;
+        margin: 12px 0;
+
+        span{
+            color: #ffd000;
+            font-weight: 600;
+        }
+    }
+
+    .form{
+        display: flex;
+        width: 40%;
+    }
+    input{
+        height: 3.125rem;
+        padding: 0 1.25em;
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    button{
+            cursor: pointer;
+            outline: none;
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0 20px;
+            white-space: nowrap;
+            background-color: #02763e;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+
+}
