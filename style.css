@@ -146,6 +146,7 @@ p{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 60px 80px;
     .fe-box{
         width: 180px;
         text-align: center;
@@ -680,11 +681,143 @@ footer{
 
 #feature{
     justify-content: center;
-    padding: 20px 40px;
+    padding: 40px 40px;
 
     .fe-box{
         margin: 15px 14px;
     }
-}
 
 }
+
+#product1{
+
+    .pro-container{
+        justify-content: center;
+     
+        .pro{
+            
+            margin: 22px;
+            
+        }
+    }
+}
+
+#banner{
+    height: 22vh;
+   
+}
+
+#sm-banner{
+
+    .banner-box {
+        margin: 15px 0;    
+        min-width: 100%;
+        height: 25vh;
+    }
+}
+
+#banner3 {
+    
+    padding: 0 28px;
+
+    .b3{
+        margin: 12px 0;
+        width: 100%;
+    
+    }
+}
+
+#newsletter{
+    .form {
+        width: 70%;
+    }
+}
+
+
+}
+
+@media(max-width: 477px){
+   
+    #header {
+        padding: 12px 30px;
+    }
+
+    #hero {
+        padding: 0 16px;
+        background-position: 54%;
+        h2{
+            font-size: 38px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            color: #ad8181;
+            font-weight: 400;
+            font-size: 22px;
+        }
+    }
+
+    #feature {
+        padding: 20px;
+        justify-content: space-between;
+        .fe-box {
+            width: 170px;
+            padding: 20px 16px;
+            box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.07);
+            margin: 12px 0;
+        }
+    }
+
+    #product1 {
+        padding: 33px 10px;
+        h2{
+            font-size: 42px;
+        }
+        p{
+            font-weight: 500;
+        }
+
+        .pro {
+            width: 100%;
+        }
+    }
+
+    #banner {
+        width: 100%;
+        height: 30vh;
+        
+        h4{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    #sm-banner {
+        padding: 20px 15px;
+
+        .banner-box {
+            width: 100%;
+            height: 40vh;
+            padding: 30px;
+        }
+    }
+
+    #banner3 {
+        padding: 0 15px;
+
+        .banner-box {
+            width: 100%;
+            height: 30vh;
+            margin: 10px 0;
+        }
+    }
+}
+
+
