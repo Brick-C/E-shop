@@ -795,7 +795,7 @@ footer{
         }
 
         button{
-            font-size: 18px;
+            font-size: 20px;
         }
     }
 
@@ -805,7 +805,7 @@ footer{
         .banner-box {
             width: 100%;
             height: 40vh;
-            padding: 30px;
+            
         }
     }
 
@@ -814,10 +814,40 @@ footer{
 
         .banner-box {
             width: 100%;
-            height: 30vh;
+            height: 24vh;
             margin: 10px 0;
         }
     }
+
+    #newsletter{
+        padding: 40px 20px;
+        .form {
+            width: 100%;
+        }
+    }
+
+    footer {
+        justify-content: space-between;
+        padding: 40px 36px;
+
+        .follow {
+            margin: 35px 0;
+
+            .icon {
+                margin-top: 10px;
+                font-size: 22px;
+                
+            }
+        }
+
+        .install{
+            h4{
+                margin-top: 20px;
+            }
+        }
+    }
+
+
 }
 
 
