@@ -657,6 +657,99 @@ footer{
 
 
 
+/* Single product details */
+
+#pro-details{
+    display: flex;
+    padding: 40px 80px;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    .single-pro-image{
+        width: 40%;
+        margin-right: 50px;
+    }
+
+    .small-img-group{
+        display: flex;
+        justify-content: space-between;
+
+        .small-img-col{
+            flex-basis: 24%;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+    }
+
+    .single-pro-details{
+        width: 60%;
+        padding-top: 40px;
+        padding-left: 20px;
+
+        a{
+            text-decoration: none;
+            color: #030303;
+            background-color: #b4b4b4;
+            padding: 3px 12px;
+            border-radius: 4px;
+            font-size: 20px;
+            font-weight: 600;
+            display: inline-block;
+            cursor: pointer;
+        }
+        h6{
+            font-size: 18px;
+            padding: 20px 0 20px 0;
+        }
+        h4{
+            padding:10px 0 15px 0;
+            color: #000000;
+        }
+        h2{
+            font-size: 34px;
+            padding-bottom: 20px;
+            font-weight: 600;
+            
+        }
+        select{
+            display: block;
+            padding: 8px 10px;
+            margin-bottom: 11px;
+            font-size: 16px;
+        }
+        input{
+            width: 62px;
+            padding: 5px 10px;
+            height: 44px;
+            margin-right: 10px;
+            font-size: 20px;
+            outline: none;
+        }
+        button{
+            background-color: #67bdc0;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        .description{
+            margin-top: 48px;
+            h4{
+                color: #000000;
+            }
+            span{
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+    }
+
+}
+
+
 /* Responsive */
 
 @media(max-width: 799px){
@@ -887,6 +980,26 @@ footer{
         }
     }
 
+
+    /* Single product */
+
+    #pro-details{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        margin-top: 26px;
+        margin-bottom: 28px;
+
+        .single-pro-image {
+            width: 100%;
+            
+        }
+
+        .single-pro-details {
+            width: 100%;
+           padding: 40px 0 0 0;
+        }
+    }
 
 }
 
