@@ -880,6 +880,55 @@ footer{
 
 
 
+/* Contact */
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 60px;
+
+    .details{
+        width: 40%;
+        h2{
+            font-size: 42px;
+            line-height: 36px;
+            padding: 20px 0;
+        }
+
+        h3{
+            font-size: 24px;
+            margin-bottom: 26px;
+        }
+
+           div li{
+                list-style: none;
+                display: flex;
+                padding: 16px 0;
+
+                i{
+                    padding-right: 14px;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+        
+    }
+
+    .map{
+        width: 55%;
+        height: 400px;
+
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
 /* Responsive */
 
 @media(max-width: 799px){
